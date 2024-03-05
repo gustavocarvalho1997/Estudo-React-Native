@@ -1,9 +1,10 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import {Text} from 'react-native';
+import {View} from 'react-native';
+import Primeiro from './components/Primeiro';
 
-function App() {
-    return <Text>Hello, world!</Text>;
-}
-
-export default App;
+export default () => (
+    <View>
+        <Primeiro />
+    </View>
+);
