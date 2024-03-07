@@ -10,4 +10,4 @@ export default props => {
       <Text>{props.secundario}</Text>
     </>
   );
-}
+};
